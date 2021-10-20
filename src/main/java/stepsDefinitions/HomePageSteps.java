@@ -16,7 +16,7 @@ public class HomePageSteps {
     }
 
     @Dado("que estou acessando a aplicação")
-    public void que_estou_acessando_a_aplicação() {
+    public void que_estou_acessando_a_aplicacao() {
 
     }
 

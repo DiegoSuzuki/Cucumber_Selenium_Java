@@ -41,7 +41,7 @@ public class BuscarProdutoStep {
     }
 
     @E("visualizo página URL {string}")
-    public void visualizo_página_URL(String url) throws InterruptedException {
+    public void visualizo_pagina_URL(String url) throws InterruptedException {
         String currentUrl = driver.getCurrentUrl();
         Assert.assertEquals(currentUrl, url);
     }
@@ -58,7 +58,7 @@ public class BuscarProdutoStep {
     }
 
     @Entao("o carrinho contém um item")
-    public void o_carrinho_contém_um_item() throws InterruptedException {
+    public void o_carrinho_contem_um_item() throws InterruptedException {
         home.checkProduct();
         driver.quit();
     }

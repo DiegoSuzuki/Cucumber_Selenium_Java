@@ -1,4 +1,5 @@
 package pages;
+import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,6 +22,11 @@ public class SearchResultPage {
     public void selectProduto() throws InterruptedException {
         Thread.sleep(3000);
         btnProduto.click();
+    }
+
+    public void checkUrlSearchResult(String url) throws InterruptedException {
+        String currentUrl = ldriver.getCurrentUrl();
+        Assert.assertEquals(currentUrl, url);
     }
 
 }

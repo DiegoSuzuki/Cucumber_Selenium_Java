@@ -1,11 +1,10 @@
 package managers;
 
-
-
 import org.openqa.selenium.WebDriver;
 
 import pages.CartPage;
 import pages.HomePage;
+import pages.PreCartPage;
 import pages.SearchResultPage;
 
 
@@ -14,6 +13,8 @@ public class PageObjectManager {
     private WebDriver driver;
 
     private SearchResultPage searchResultPage;
+
+    private PreCartPage preCartPage;
 
     private CartPage cartPage;
 
@@ -39,7 +40,11 @@ public class PageObjectManager {
 
     }
 
+    public PreCartPage getPreCartPage() {
 
+        return (preCartPage == null) ? preCartPage = new PreCartPage(driver) : preCartPage;
+
+    }
 
     public CartPage getCartPage() {
 

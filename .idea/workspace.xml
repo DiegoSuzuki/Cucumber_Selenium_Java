@@ -22,32 +22,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97b1eeb7-644d-42c6-96b6-9e17845a7e3f" name="Default Changelist" comment="Adicionado a dependência cucumber-picocontainer">
-      <change afterPath="$PROJECT_DIR$/.idea/CucumberSeleniumJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/Configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cucumber/TestContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataProviders/ConfigFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/DriverType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/EnvironmentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/managers/FileReaderManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/managers/WebDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PreCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SearchResultPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stepsDefinitions/CartPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stepsDefinitions/HomePageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stepsDefinitions/PreCartPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stepsDefinitions/SearchResultPageSteps.java" afterDir="false" />
+    <list default="true" id="97b1eeb7-644d-42c6-96b6-9e17845a7e3f" name="Default Changelist" comment="Incluindo instruções no arquivo readme.">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Home.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PreCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PreCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/runners/RunBuscarProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runners/RunBuscarProduto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/stepsDefinitions/BuscarProdutoStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepsDefinitions/BuscarProdutoStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepsDefinitions/CartPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepsDefinitions/CartPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepsDefinitions/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepsDefinitions/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepsDefinitions/PreCartPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepsDefinitions/PreCartPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepsDefinitions/SearchResultPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepsDefinitions/SearchResultPageSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +74,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\diego\IdeaProjects\Cucumber_Selenium_Java\drivers" />
       <recent name="C:\Users\diego\Desktop\CucumberSeleniumJava\drivers" />
       <recent name="C:\Users\diego\Desktop\CucumberJavaSelenium\.idea" />
       <recent name="C:\Users\diego\Desktop\CucumberJavaSelenium\drivers" />
@@ -95,7 +84,7 @@
       <recent name="C:\Users\diego\Desktop\CucumberJavaSelenium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteAmbiente">
+  <component name="RunManager" selected="JUnit.RunBuscarProduto">
     <configuration name="TesteAmbiente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
