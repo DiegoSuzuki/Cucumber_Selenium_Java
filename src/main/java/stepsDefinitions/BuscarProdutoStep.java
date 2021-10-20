@@ -1,23 +1,32 @@
 package stepsDefinitions;
 
-import org.openqa.selenium.firefox.FirefoxDriver;
-import pages.Home;
-import cucumber.api.java.pt.*;
+import io.cucumber.java.pt.*;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import pages.CartPage;
+import pages.HomePage;
+import pages.SearchResultPage;
+import managers.PageObjectManager;
+import managers.WebDriverManager;
 
 public class BuscarProdutoStep {
 
-    public WebDriver driver;
-    public Home home;
+    WebDriver driver;
+    HomePage homePage;
+    CartPage cartPage;
+    PageObjectManager pageObjectManager;
+    WebDriverManager webDriverManager;
 
     @Dado("que estou acessando a aplicação")
     public void que_estou_acessando_a_aplicação() {
-        System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
-        driver = new ChromeDriver();
+//        System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
+//        driver = new ChromeDriver();
 
-        home = new Home(driver);
+        System.setProperty("webdriver.gecko.driver", "drivers\\geckodriver.exe");
+        driver = new FirefoxDriver();
+
+        home = new HomePage(driver);
         driver.get("https://www.kabum.com.br/");
     }
 
@@ -39,7 +48,7 @@ public class BuscarProdutoStep {
 
     @E("clico no primeiro item")
     public void clico_no_primeiro_item() throws InterruptedException {
-        home.selectProduto();
+        SearchResultPage.selectProduto();
     }
 
     @Quando("clico no botao para ir para o carrinho")
@@ -73,6 +82,3 @@ public class BuscarProdutoStep {
 
 
 }
-
-
-

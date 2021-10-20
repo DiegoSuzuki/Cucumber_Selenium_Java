@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,10 +22,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97b1eeb7-644d-42c6-96b6-9e17845a7e3f" name="Default Changelist" comment="Ajuste no gitignore.">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/testes.txt" beforeDir="false" />
+    <list default="true" id="97b1eeb7-644d-42c6-96b6-9e17845a7e3f" name="Default Changelist" comment="Adicionado a dependência cucumber-picocontainer">
+      <change afterPath="$PROJECT_DIR$/.idea/CucumberSeleniumJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/Configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumber/TestContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataProviders/ConfigFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/DriverType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/EnvironmentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/managers/FileReaderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/managers/WebDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PreCartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SearchResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepsDefinitions/CartPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepsDefinitions/HomePageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepsDefinitions/PreCartPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepsDefinitions/SearchResultPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Home.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/runners/RunBuscarProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runners/RunBuscarProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepsDefinitions/BuscarProdutoStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepsDefinitions/BuscarProdutoStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +64,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1aynLGSc2GTFwu9iFPsx0qEUMmG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,23 +78,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/drivers" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\diego\Desktop\CucumberSeleniumJava\drivers" />
+      <recent name="C:\Users\diego\Desktop\CucumberJavaSelenium\.idea" />
+      <recent name="C:\Users\diego\Desktop\CucumberJavaSelenium\drivers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\diego\Desktop\CucumberJavaSelenium\drivers" />
       <recent name="C:\Users\diego\Desktop\CucumberJavaSelenium" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\diego\Desktop\CucumberJavaSelenium\.idea" />
-      <recent name="C:\Users\diego\Desktop\CucumberJavaSelenium\drivers" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunBuscarProduto">
+  <component name="RunManager" selected="Application.TesteAmbiente">
     <configuration name="TesteAmbiente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -82,7 +111,6 @@
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/BuscarProduto.feature" />
       <option name="GLUE" value="stepsDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="TesteAmbiente" />
       <module name="CucumberSeleniumJava" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: BuscarProduto" />
@@ -94,7 +122,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="TesteAmbiente" />
-      <module name="testeoliveira" />
+      <module name="ExemploAutomacaoTesteWeb" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,7 +148,7 @@
       </method>
     </configuration>
     <configuration name="RunColocarProdutoCarrinho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testeoliveira" />
+      <module name="ExemploAutomacaoTesteWeb" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="runners.*" />
@@ -134,15 +162,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TesteAmbiente" />
+      <item itemvalue="Cucumber Java.Feature: BuscarProduto" />
+      <item itemvalue="JUnit.RunBuscarProduto" />
+      <item itemvalue="JUnit.RunColocarProdutoCarrinho" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunColocarProdutoCarrinho" />
         <item itemvalue="JUnit.RunBuscarProduto" />
         <item itemvalue="Application.TesteAmbiente" />
-        <item itemvalue="Cucumber Java.Feature: BuscarProduto" />
-        <item itemvalue="JUnit.RunColocarProdutoCarrinho" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -189,7 +223,35 @@
       <option name="project" value="LOCAL" />
       <updated>1588887698220</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ajuste no gitignore.">
+      <created>1588888011614</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588888011614</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Atualização das dependências">
+      <created>1633844988928</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633844988928</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Atualizado driver do Firefox">
+      <created>1633845255698</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1633845255698</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adicionado a dependência cucumber-picocontainer">
+      <created>1633926521848</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1633926521848</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,111 +274,13 @@
     <MESSAGE value="Ajustes no gitignore" />
     <MESSAGE value="Primeira versão" />
     <MESSAGE value="Ajuste no gitignore." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste no gitignore." />
+    <MESSAGE value="Atualização das dependências" />
+    <MESSAGE value="Atualizado driver do Firefox" />
+    <MESSAGE value="Adicionado a dependência cucumber-picocontainer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado a dependência cucumber-picocontainer" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="179" key="#Project_Structure" timestamp="1587716921694">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="179" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587716921694" />
-    <state x="563" y="139" key="#RunBuscarProduto" timestamp="1588865695917">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="563" y="139" key="#RunBuscarProduto/0.0.1920.1040@0.0.1920.1040" timestamp="1588865695917" />
-    <state x="657" y="139" key="#TesteAmbiente" timestamp="1588880629528">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="657" y="139" key="#TesteAmbiente/0.0.1920.1040@0.0.1920.1040" timestamp="1588880629528" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587717186780">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587717186780" />
-    <state x="699" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587717005044">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="699" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587717005044" />
-    <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587717164245">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587717164245" />
-    <state x="790" y="213" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1588865667896">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="790" y="213" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588865667896" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588871732822">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588871732822" />
-    <state x="559" y="97" key="CommitChangelistDialog2" timestamp="1588881970930">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="559" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588881970930" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588879660020">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587786341340" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588879660020" />
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1588883780443">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587788016509" />
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588883780443" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1588883780443">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587788016509" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588883780443" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1588883780443">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587788016509" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588883780443" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1588883780443">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587788016509" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588883780443" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1587768848054">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587768848054" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1587768848054">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587768848054" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1587768848054">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587768848054" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1587768848054">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587768848054" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1588879804089">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587717109376" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588879804089" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1588886053813">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588886053813" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588887712175">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588887712175" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588885725838">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588885725838" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587786305688">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587786305688" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1588884026333">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587768657892" />
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588884026333" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

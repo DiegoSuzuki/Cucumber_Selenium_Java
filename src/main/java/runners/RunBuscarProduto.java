@@ -1,8 +1,10 @@
 package runners;
 
 import org.junit.runner.RunWith;
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+
+
+import io.cucumber.junit.*;
+
 
 @RunWith(Cucumber.class)
 @CucumberOptions
